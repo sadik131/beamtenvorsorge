@@ -4,23 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+  <link href="./output.css" rel="stylesheet">
 </head>
 
 <body>
   <nav class="px-3 lg:px-28 lg:pt-5 w-full">
     <div class="items-center justify-between flex">
-      <img src="./img/Beamtenvorsorge 1.png" class="w-40 h-12 md:h-[72px] md:w-[295px] " alt="" srcset="">
+      <img src="../img/Beamtenvorsorge 1.png" class="w-40 h-12 md:h-[72px] md:w-[295px] " alt="" srcset="">
       <ul class="md:flex items-center hidden justify-center text-sm gap-10 ml-24">
         <li>
           <a class="text-secendary" href="">STARTSEITE</a>
         </li>
         <li class="relative flex items-center gap-1 justify-center">
-          <a href="">SERVICE
-          </a>
-          <img src="./img/Vector (2).png" alt="">
-
+          <a href="javascript:void(0);" onclick="toggleDropdown()">SERVICE</a>
+          <img src="../img/Vector (2).png" alt="">
+          
+          <!-- Dropdown Menu -->
+          <ul id="dropdown" class="absolute z-20 mt-2 -left-56 hidden bg-white shadow-md top-11">
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#">Dienstunfähigkeitsversicherung</a>
+            </li>
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#">Diensthaftpflichtversicherung</a>
+            </li>
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#">Vermögensschadenhaftpflichtversicherung</a>
+            </li>
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#">Beamte</a>
+            </li>
+            <li class="p-2 hover:bg-gray-200">
+              <a href="#">Öffentlicher Dienst</a>
+            </li>
+          </ul>
         </li>
+        
         <li>
           <a href="">KONTAKT </a>
         </li>
@@ -37,8 +55,8 @@
   </nav>
 
   <section class="lg:h-[500px] pb-56 lg:pb-0 lg:px-28 w-full bg-primary flex items-center justify-end">
-    <img src="./img/Rectangle 21.png" class="w-full lg:w-[662px] lg:h-[486px] relative" alt="">
-     <div class="bg-white absolute bottom-0 flex flex-col left-0 right-0 lg:m-0 m-auto lg:left-24 w-[90%] lg:w-[464px] lg:h-96 p-[10px]">
+    <img src="../img/Rectangle 21.png" class="w-full lg:w-[662px] lg:h-[486px] relative" alt="">
+     <div class="bg-white absolute bottom-0 flex flex-col left-0 right-0 lg:m-0 m-auto lg:left-40 w-[90%] lg:w-[464px] lg:h-96 p-[10px]">
       <h3 class="text-4xl mt-7">Ihre Experten für die optimale Absicherung von <span class="text-secendary">
           Beamtenanwärtern</span></h3>
       <p class="mt-6 mb-5">Ihre Gesundheit ist unser Anliegen. Wir laden Sie herzlich ein, mit uns in Kontakt zu treten und von unserer
@@ -46,7 +64,7 @@
         Zukunft finden.</p>
       <button class="bg-secendary flex items-center justify-between w-full h-12  p-[10px] text-white">Kostenfreies Informationsgespräch
         vereinbaren
-      <img src="./img/arrow.png" alt="">
+      <img src="../img/arrow.png" alt="">
       </button>
     </div> 
   </section>
@@ -54,7 +72,7 @@
   <section class="p-4 lg:py-24 lg:px-16 gap-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
     
     <div class="pb-24 w-full relative lg:pb-0">
-      <img src="./img/banner1.jpg" class="w-full" alt="">
+      <img src="../img/banner1.jpg" class="w-full" alt="">
       <div class="w-[90%] shadow-md p-[10px] absolute inset-x-0 bottom-0 lg:-bottom-32 mx-auto bg-white z-10">
         <h4 class="text-lg mt-8 mb-3">Beihilfe</h4>
         <p class="text-base mb-3">Durchblick im Beihilferecht: Dein Leitfaden für optimale Leistungen als Beamter</p>
@@ -64,7 +82,7 @@
       </div>
     </div>
     <div class="pb-24 w-full relative lg:pb-0">
-      <img src="./img/Rectangle 23.png" class="w-full" alt="">
+      <img src="../img/Rectangle 23.png" class="w-full" alt="">
       <div class="w-[90%] shadow-md p-[10px] absolute inset-x-0 bottom-0 lg:-bottom-32 mx-auto bg-white z-10">
         <h4 class="text-lg mt-8 mb-3">Beihilfe</h4>
         <p class="text-base mb-3">Durchblick im Beihilferecht: Dein Leitfaden für optimale Leistungen als Beamter</p>
@@ -74,7 +92,7 @@
       </div>
     </div>
     <div class="pb-24 w-full relative lg:pb-0">
-      <img src="./img/Rectangle 24.png" class="w-full" alt="">
+      <img src="../img/Rectangle 24.png" class="w-full" alt="">
       <div class="w-[90%] shadow-md p-[10px] absolute inset-x-0 bottom-0 lg:-bottom-32 mx-auto bg-white z-10">
         <h4 class="text-lg mt-8 mb-3">Beihilfe</h4>
         <p class="text-base mb-3">Durchblick im Beihilferecht: Dein Leitfaden für optimale Leistungen als Beamter</p>
@@ -88,22 +106,22 @@
   <section class="mt-40 pb-12 p-4 lg:px-[100px] bg-[#D9D9D9]">
     <div class="text-center my-11">
       <h6
-        class="text-sm my-11 relative inline-block after:content-[''] after:block after:w-full after:h-[3px] after:bg-secendary after:mt-3">
+        class="text-sm mt-10 my-5 relative inline-block after:content-[''] after:block after:w-full after:h-[3px] after:bg-secendary after:mt-3">
         Unser Service
       </h6>
-      <h3 class="text-3xl">Maßgeschneiderte Lösungen </h3>
+      <h3 class="text-3xl mb-10">Maßgeschneiderte Lösungen </h3>
     </div>
 
     <div class="lg:flex gap-[22px]">
       <div class="flex gap-2 mb-3 lg:mb-0 px-5 py h-[250px] bg-white shadow-md flex-col items-center justify-center">
-        <img class="h-10 w-10" src="./img/Group 2.png" alt="">
+        <img class="h-10 w-10" src="../img/Group 2.png" alt="">
         <h5 class="text-lg font-semibold">Auswahl passender Beihilfeergänzungstarife</h5>
         <p class="text-center text-sm">Wir helfen Ihnen dabei, aus einer Vielzahl von
           Beihilfeergänzungstarifen denjenigen auszuwählen, der nicht nur Ihren aktuellen Anforderungen entspricht,
           sondern auch langfristig eine flexible und umfassende Absicherung bietet.</p>
       </div>
       <div class="flex gap-2 px-5 py h-[250px] flex-col bg-primary text-white items-center justify-center">
-        <img class="h-10 w-10" src="./img/Frame.png" alt="">
+        <img class="h-10 w-10" src="../img/Frame.png" alt="">
         <h5 class="text-lg font-semibold">Auswahl passender Beihilfeergänzungstarife</h5>
         <p class="text-center text-sm">Wir helfen Ihnen dabei, aus einer Vielzahl von
           Beihilfeergänzungstarifen denjenigen auszuwählen, der nicht nur Ihren aktuellen Anforderungen entspricht,
@@ -112,14 +130,14 @@
     </div>
     <div class="block lg:flex gap-[22px] mt-4">
       <div class="flex mb-3 lg:mb-0 gap-2 px-5 py h-[250px] bg-white shadow-md flex-col items-center justify-center">
-        <img class="h-10 w-10" src="./img/Frame (1).png" alt="">
+        <img class="h-10 w-10" src="../img/Frame (1).png" alt="">
         <h5 class="text-lg font-semibold">Auswahl passender Beihilfeergänzungstarife</h5>
         <p class="text-center text-sm">Wir helfen Ihnen dabei, aus einer Vielzahl von
           Beihilfeergänzungstarifen denjenigen auszuwählen, der nicht nur Ihren aktuellen Anforderungen entspricht,
           sondern auch langfristig eine flexible und umfassende Absicherung bietet.</p>
       </div>
       <div class="flex gap-2 px-5 py h-[250px] flex-col bg-primary text-white items-center justify-center">
-        <img class="h-10 w-10" src="./img/Frame3.png" alt="">
+        <img class="h-10 w-10" src="../img/Frame3.png" alt="">
         <h5 class="text-lg font-semibold">Auswahl passender Beihilfeergänzungstarife</h5>
         <p class="text-center text-sm">Wir helfen Ihnen dabei, aus einer Vielzahl von
           Beihilfeergänzungstarifen denjenigen auszuwählen, der nicht nur Ihren aktuellen Anforderungen entspricht,
@@ -131,7 +149,7 @@
 
   <section class="py-10 p-4 lg:px-[102px] lg:py-20">
     <div class="block lg:flex gap-[22px] items-stretch">
-      <img src="./img/pkv-beratung-beamte.jpg" alt="" class="object-coverh-auto w-full lg:w-[350px] flex-shrink-0">
+      <img src="../img/pkv-beratung-beamte.jpg" alt="" class="object-cover w-full lg:w-[350px] flex-shrink-0">
       <div class="flex-grow">
         <h6
           class="text-sm mt-5 lg:mt-0 relative font-bold inline-block after:content-[''] after:block after:w-full after:h-[2px] after:bg-secendary after:mt-3">
@@ -308,7 +326,7 @@
     </div>
     <div class="mx-auto block lg:flex gap-28 justify-between items-start px-4 md:px-16">
       <div class="w-full md:w-1/3 mb-6 md:mb-0">
-        <img src="./img/Beamtenvorsorge 1.png" alt="Logo" class="mb-4 filter invert">
+        <img src="../img/Beamtenvorsorge 1.png" alt="Logo" class="mb-4 filter invert">
         <p class="text-sm mt-8">Ihre Experten für die optimale Absicherung von Beamten & Beamtenanwärtern.</p>
       </div>
 

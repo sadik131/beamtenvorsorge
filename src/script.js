@@ -1,23 +1,13 @@
 function toggleDropdown() {
-    const dropdown = document.getElementById('dropdownMenu');
-    dropdown.classList.toggle('hidden');
-  }
+  const dropdown = document.getElementById('dropdown');
+  dropdown.classList.toggle('hidden');
+}
 
-//   function toggleContent() {
-//     var content = document.getElementById("content");
-//     if (content.classList.contains('hidden')) {
-//         content.classList.remove('hidden');
-//     } else {
-//         content.classList.add('hidden');
-//     }
-// }
 
 function toggleContent(sectionId) {
-  // Hide all sections
   for (let i = 1; i <= 3; i++) {
-    document.getElementById('content-' + i).classList.add('hidden');
+    document.getElementById('content-' + i).classList.add('hide');
   }
   
-  // Show the clicked section
-  document.getElementById('content-' + sectionId).classList.toggle('hidden');
+  document.getElementById('content-' + sectionId).classList.toggle('hide');
 }
