@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container{
+    @apply px-24
+}
+
+.hide {
+   @apply hidden
+}
