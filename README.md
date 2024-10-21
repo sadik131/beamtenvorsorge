@@ -5,7 +5,7 @@ A brief description of what this project does and who it's for
 
 desktop page1: https://drive.google.com/file/d/1CDsMxS1MDAtnUIOUEZt0Yb_BCQ42q_yT/view?usp=sharing
 
-mobile page1:https://drive.google.com/file/d/1etf6k7xBO8SCEp_59_TUomt1Z4R2Q97z/view?usp=sharing
+mobile page1: https://drive.google.com/file/d/1olI6DOKXd8x9rLTP0sjwaQxED4xN2rxE/view?usp=sharing
 
 
 desktop page2: https://drive.google.com/file/d/1EwxZ_Q1zbtTPGs_U7ilbOos-0Bj-xw3W/view?usp=sharing
