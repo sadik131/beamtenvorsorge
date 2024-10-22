@@ -8,15 +8,14 @@ desktop page1: https://drive.google.com/file/d/1CDsMxS1MDAtnUIOUEZt0Yb_BCQ42q_yT
 mobile page1: https://drive.google.com/file/d/1olI6DOKXd8x9rLTP0sjwaQxED4xN2rxE/view?usp=sharing
 
 
-desktop page2: https://drive.google.com/file/d/1EwxZ_Q1zbtTPGs_U7ilbOos-0Bj-xw3W/view?usp=sharing
+desktop page2: https://drive.google.com/file/d/1D2JNV0SgvLukcIUFMYO4wWYmQIpsD1CV/view?usp=sharing
 
-mobile page2: https://drive.google.com/file/d/1yZ2nDrTeBr01BE-7MGJptssefFlqoUJR/view?usp=sharing
+mobile page2: https://drive.google.com/file/d/1-EzeiWWj5rtwfwL-Y_xKViHnw0bZ9kzD/view?usp=sharing
 
 
-desktop page3: https://drive.google.com/file/d/1jjoAqPwbuUzrLnUaFFL3iqWiZ6wKGFSI/view?usp=sharing
+desktop page3: https://drive.google.com/file/d/1qYE2Scs9XkIPaFEMI1ZJIOHpmWpdKkAz/view?usp=sharing
 
-mobile page3: https://drive.google.com/file/d/1d57XVXSBYqW6NTkmIc8dYODSSkpF-hD-/view?usp=sharing
-
+mobile page3: https://drive.google.com/file/d/1OHWD2Pmh6huHEErSYp9cyIADYiBbyDqA/view?usp=sharing
 ## Demo
 
 Insert gif or link to demo
